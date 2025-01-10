@@ -1,0 +1,39 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Premium Titanium Kitchen Cutting Board",
+            "price": 29.99,
+            "image": "https://img.kwcdn.com/product/open/79155e93877d43e88b044384271136b6-goods.jpeg",
+            "description": "Double-sided pure titanium cutting board, perfect for kitchen use. Hygienic and durable."
+        },
+        {
+            "id": 2,
+            "name": "Stainless Steel Cutting Board",
+            "price": 24.99,
+            "image": "https://img.kwcdn.com/product/open/2024-09-10/1725930433079-336c3eec6cbf4084881940973f0903f2-goods.jpeg",
+            "description": "Double-sided chopping board with non-slip silicone wrap, dishwasher safe"
+        },
+        {
+            "id": 3,
+            "name": "Heavy Duty Stainless Steel Cutting Board",
+            "price": 34.99,
+            "image": "https://img.kwcdn.com/product/fancy/63fe275a-85f9-4ade-899c-fb6ca10e369b.jpg",
+            "description": "Professional-grade cutting board for meat, fruit, vegetables, and bread"
+        },
+        {
+            "id": 4,
+            "name": "Acacia Wood Cutting Board",
+            "price": 39.99,
+            "image": "https://img.kwcdn.com/product/fancy/0fa25058-48fb-482d-91fc-0aadc06d1bcd.jpg",
+            "description": "Premium double-sided wooden cutting board with handle, perfect for all kitchen tasks"
+        },
+        {
+            "id": 5,
+            "name": "Sturdy Bamboo Cutting Board",
+            "price": 27.99,
+            "image": "https://img.kwcdn.com/product/fancy/b9c7c068-f033-4537-95d0-6292eb55523d.jpg",
+            "description": "Eco-friendly bamboo cutting board, ideal for meat, vegetables, and BBQ"
+        }
+    ]
+} 

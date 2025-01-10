@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Cloavro.site</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div id="header-placeholder"></div>
+
+    <main>
+        <section class="products-page">
+            <nav class="breadcrumb" aria-label="breadcrumb">
+                <a href="/index.html">Home</a>
+                <i class="fas fa-chevron-right separator"></i>
+                <span>Products</span>
+            </nav>
+
+            <div class="products-header">
+                <div class="products-title">
+                    <h1>Our Products</h1>
+                    <p>Premium Cutting Boards Collection</p>
+                </div>
+                <div class="products-sort">
+                    <select id="sortFilter">
+                        <option value="featured">Featured</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="newest">Newest Arrivals</option>
+                    </select>
+                </div>
+            </div>
+
+            <button class="filter-toggle" id="filterToggle">
+                <i class="fas fa-filter"></i> Filters
+            </button>
+
+            <div class="products-layout">
+                <aside class="filters-sidebar">
+                    <div class="filter-section">
+                        <h3>Price</h3>
+                        <div class="price-ranges">
+                            <label><input type="checkbox" value="0-25"> Under $25</label>
+                            <label><input type="checkbox" value="25-50"> $25 to $50</label>
+                            <label><input type="checkbox" value="50-100"> $50 to $100</label>
+                            <label><input type="checkbox" value="100+"> Over $100</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-section">
+                        <h3>Material</h3>
+                        <div class="material-filters">
+                            <label><input type="checkbox" value="titanium"> Titanium</label>
+                            <label><input type="checkbox" value="steel"> Stainless Steel</label>
+                            <label><input type="checkbox" value="wood"> Wood</label>
+                            <label><input type="checkbox" value="bamboo"> Bamboo</label>
+                        </div>
+                    </div>
+
+                    <div class="filter-section">
+                        <h3>Customer Rating</h3>
+                        <div class="rating-filters">
+                            <label>
+                                <input type="checkbox" value="4-up">
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                </div>
+                                & Up
+                            </label>
+                            <!-- Add more rating options -->
+                        </div>
+                    </div>
+                </aside>
+
+                <div class="products-content">
+                    <div class="products-grid" id="productsGrid">
+                        <!-- Products will be loaded here dynamically -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="../js/main.js"></script>
+    <script src="../js/includes.js"></script>
+    <script src="../js/products.js"></script>
+</body>
+</html> 
